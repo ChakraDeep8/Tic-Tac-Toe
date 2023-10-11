@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tic-Tac-Toe</h1>
+        <div id="tic-tac-toe-board"></div>
+        <p id="current-player">Current Player: X</p>
+        <p id="winner-message"></p>
+        <button class="new-game-button" onclick="startNewGame()">New Game</button>
+        <button class="restart-game-button" onclick="restartGame()">Restart Game</button>
+    </div>
+    <div class="popup" id="popup">
+        <div class="popup-message" id="popup-message">
+            <p id="popup-winner"></p>
+            <button class="new-game-button" onclick="startNewGame()">New Game</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
